@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+      <!--make new tags for IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript">
+  document.createElement("nav");
+  document.createElement("header");
+  document.createElement("footer");
+  document.createElement("section");
+  document.createElement("video");
+  document.createElement("article");
+  </script>
+  <![endif]-->
+    
+<head>
+    <meta charset="utf-8">
+    <title>Sustainability Matters</title>
+    
+    <meta name="description" content="Dietiker's sustainable company">
+    <meta name="keywords"  content="Dietiker, Furniture, Switzerland, Sustainability">        
+    <meta name="author"   content="Danni Kirchoff">
+     
+    <!-- links here -->
+    <link rel="stylesheet" href= "css/reset.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/fonts.css">    
+    <link rel="jquery" href="js/index.js">
+        
+     <!--css for slider-->
+    <link href="assets/css/styles-699a75ee.css" media="screen" rel="stylesheet" type="text/css" />
+    
+    <!--javascript for slider-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/sliderscript.js" type="text/javascript"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id))              {js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">		
+    
+    <!-- javascript for smooth scrolling -->
+ 	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>  
+    
+    <style>
+        
+        /*colors
+        dark grey #353535
+        red #c22926
+        
+        */
+        
+        /*baseline styles*/
+        body, html {
+            font-size: 16px;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        img{
+            display:block;
+            max-width: 100%;
+            width: 100%;
+        }
+        
+        section, article, header, footer, nav, video{
+            display:block;
+        }
+        
+    html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+        }
+
+        .sy-slides-wrap {
+        width: 100%;
+        height: auto;
+        }
+
+
+    .sy-pager {
+    display: none;
+    }
+        li.a{
+            margin-top:20%;
+        }
+        
+        /*sections*/
+        
+        section{
+            width:100%;
+        }
+        
+        .s01{
+            background-image: url('images/hero.jpg');
+            background-size:cover;
+            background-repeat:no-repeat;
+            padding-top:11%;
+            overflow:auto;
+           
+            
+
+        }
+        
+        .s02{
+            background-color:#353535;
+            height:auto;
+            margin-top:5px;
+            padding-top:15%;
+            padding-bottom:15%;
+        }
+        
+        .s03{
+            height:auto;
+            margin-top:5px;
+           
+        }
+        
+        .s04{
+            background-image: url('images/worker.jpg');
+            background-size:cover;
+            overflow:auto;
+            background-repeat:no-repeat;
+            padding-top:20%;
+             padding-left:5%;
+            
+        }
+        
+        .s05{
+            height:auto;
+            margin-top:5px;
+            padding-top:5%;
+        }
+        
+        .s06{
+            height:auto;
+            margin-top:5px;
+            padding-top:5%;
+        }
+        
+        
+        /*div positioning */
+        
+        div {
+            vertical-align: top;
+        }
+        
+        p {
+            display: block;
+            margin: 1em 0; 
+        }
+        
+            /* section 1 */
+        
+        .herobox{
+            width:75%;
+            background-color:#353535;
+            float:right;
+            background-color: rgba(53,53,53,0.7);
+            border: 1px solid transparent;
+            margin-bottom: 15%;
+        }
+
+        .herotext{
+            position:absolute;
+            margin-top:5%;
+            margin-left:10%;
+        }
+        
+        .dietiker{
+            margin-top:33%;
+            margin-left:5%;
+            margin-bottom:3%;
+        }
+            /*section 2 */
+            
+        .whatis{
+            width:90%;
+            height:auto;
+            margin-left:10%;
+        }
+        
+        .headline{
+            margin-bottom:5%;
+        }
+        
+        .description{
+            width:280px;
+            display:inline-block;
+            margin-left:5%;
+        }
+        
+             /*section 3 */
+        #slippry-slider{
+            width:50%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        .s03one{
+            width: 100%;
+        }
+        
+        .s03two{
+            display:inline-block;
+            width:30%;
+            margin-left:8%;
+        }
+        
+              /*section 4 */
+        
+        .imagetext{
+            width:80%;
+            margin-bottom:20%;
+            
+            display:inline-block;
+            
+            
+            
+        }
+             /*section 5 */
+             
+         .bordercontain{
+            width: 90%;
+            height:auto;
+            border-top:thick solid;
+            border-bottom:thick solid;
+            border-bottom-color:#c22926;
+             border-top-color:#c22926;
+             padding-left:20px;
+         }
+         
+         .generalguidelines{
+           margin-left:8%;
+           margin-bottom:1%;
+           vertical-align: top;         
+           
+         }
+         
+         .guidelinetext{
+            width:100%;
+            display: inline-block;
+            margin-top:-90%;
+            margin-left:20%;
+         }
+         
+         .number {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: -80px;
+            
+
+         }
+         
+         .one{
+            width:25%;
+            display:inline-block;
+            margin-left:7%;
+         }
+         
+         
+         
+          /*section 6 */
+          
+          .img{
+            width:100%;
+            max-width:100%;
+          }
+          
+          .materialimage{
+            height:auto;
+            
+          }
+          
+          .materialbackground{
+            background-color:#353535;
+            height:auto;
+            margin-top:-30%;
+            padding-top:35%;
+            padding-bottom:10%;
+            padding-left:15%;
+         }
+         
+         .materials{
+            margin-top:-75%;
+            margin-left:5%;
+         }
+         
+         .paragraphs{
+            width:85%;
+         }
+         
+         footer{
+            width:100%;
+            background-color:#353535;
+	    margin-top:2%;
+            padding-top:1%;
+            padding-bottom:1%;
+            padding-left:5%;
+         }
+         
+        
+        
+        /*typography*/
+        
+        h1, h2, h3, h4, h5, h6 {
+          line-height: 1.5;
+          margin: 0.5em 0;
+        }
+        
+        a {
+           text-decoration: none;
+	   color:black;
+	   font-family:avenir;
+	   
+        }
+	
+	
+	
+	ul{
+	 
+	  margin-left:10%;
+	  margin-top:50%;
+	  
+	}
+        
+        h1{
+            font-size: 6.5vw;
+            color:white;
+            font-family:clarendon;
+            line-height:100%;
+        }
+    
+        h2{
+            font-size:4vw;
+            color:white;
+            font-family:basetica;
+            line-height:90%;
+        }
+        
+        .how{
+            color:black;
+        }
+        
+        .sustain{
+            font-size:1em;
+            color:black;
+        }
+        
+        .gg{
+            color:#c22926;
+            font-size:2.4em;
+        }
+        
+        .providedby{
+            font-size:2vw;
+            color:white;
+        }
+        
+        h3{
+            font-size: 13vw;
+            color:gray;
+            opacity:.20;
+            font-family:basetica;
+        }
+        
+        h4{
+            font-size:6vw;
+            color:white;
+             font-family:clarendon;
+             line-height: 100%;
+        }
+        
+        p{
+            font-size:1em;
+            color:white;
+            font-family:avenir;
+            line-height:19px;
+        }
+        
+        .gtext{
+            font-size:2vw;
+            font-family:avenir;
+            color:black;
+            line-height:25px;
+        }
+        
+        .mat{
+            font-family:basetica;
+            font-size:4vw;
+            
+        }
+        
+        .careful{
+            font-family:basetica;
+            font-size:2.5vw;
+            line-height:100%;
+            
+        }
+        
+        /*media queries*/
+        
+        
+         @media screen and (max-width:768px){
+            
+        .careful{
+            font-size:1em;
+        }
+            
+           h3{
+            font-size:6.3em;
+        }
+        
+        .gtext{
+            font-size:1em;
+        }
+        
+          @media screen and (max-width:758px){
+          .one{
+            width:100%;
+            margin-top:-10%;
+          }
+          
+          .guidelinetext{
+            width:65%;
+            margin-top:15%;
+            margin-left:0%;
+          }
+          
+          .bordercontain{
+            padding-top:6%;
+          }
+          
+          h2{
+            font-size:1.5em;
+          }
+          
+          h1{
+            font-size:2em;
+          }
+          
+          .providedby{
+            font-size:1em;
+            margin-top:20%;
+          }
+          }
+        
+         @media screen and (max-width:696px){
+            .pg2{
+                margin-top:10px;
+            }
+         }
+         
+         @media screen and (max-width:541px){
+            .herobox{
+                width:100%;
+                height:100%;
+                padding-left:8%;
+            }
+            
+            .herotext{
+                position:inline-block
+            }
+            
+            .dietiker{
+             margin-left:10px;
+            }
+         }
+         
+         @media screen and (max-width:518px){
+            .guidelinetext{
+                margin-top:75px;
+            }
+         }
+         
+         @media screen and (max-width:380px){
+            h2{
+                font-size:2em;
+            }
+            
+            .description{
+                width:80%;
+            }
+         }
+         
+            
+         @media screen and (max-width:320px){
+            
+            
+           
+         }
+         
+         @media screen and (max-width:570px){
+            .gg{
+                font-size:1.5em;
+            }
+         }
+         
+          @media screen and (max-width:467px){
+           
+            .bordercontain{
+                width:100%;
+            }
+          }
+         
+          @media screen and (max-width:470px){
+            .guidelinetext{
+                width:60%;
+            }
+            
+            
+          }   
+         
+    
+        
+    </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+</head>
+
+
+<body>
+<body>
+
+      <!-- http://demos.uilang.com/hamburger-menu/ -->
+      
+<!-- hamburger button -->      
+<a class=" bigburger burger">
+  <span></span>
+  <span></span>
+  <span></span>
+</a>
+
+<nav>
+    
+    <ul>
+    <li><a class="burger" href="#panel1">home</a></li>
+    <li><a class="burger" href="#panel2">about</a></li>
+    <li><a class="burger" href="#panel3">sustainable design</a></li>
+    <li><a class="burger" href="#panel4">dietiker's contribution</a></li>
+    <li><a class="burger" href="#panel5">get involved</a></li>
+    </ul>
+    
+    
+    
+</nav>
+
+<code>
+  clicking on "a.burger" toggles class "open" on "a.burger"
+</code>
+
+  <script src="js/index.js"></script>
+  
+     <section id="panel1"class="s01">
+        <div class="herobox">
+                     <div class="dietiker">
+            <h2 class="providedby">Provided by dietiker</h2>
+         </div>   
+        </div>
+         <div class="herotext">
+            <h1>Sustainability <br> Matters</h1>
+         </div>
+
+        
+     </section>
+     
+     <section id="panel2" class="s02">
+        <div class="whatis">
+            <div class="headline">
+                <h2> What is <br>sustainability? </h2>
+            </div>
+            <div class="descriptioncontain">
+            <div class="description">
+                 <p>Sustainability is broadly defined as meeting the needs of the present generation without compromising the ability of future generations to meet their own needs.  Sustainable programs are those that result from an institution&#39;s commitment to environmental, social and economic health, or the &#8221;triple bottom line.&#8221; Sustainability has both individual and institutional applicability, and is usually a balancing act.  </p>
+
+            </div>
+            <div class="description pg2">
+                            <p>Sustainability creates and maintains conditions under which humans and nature can co-exist in productive harmony. Everything we need in order to survive and thrived relies either directly or indirectly on our natural environment.</p>
+
+            </div>
+
+            </div>
+        </div>    
+     </section>
+   <section id="panel3" class="s03">
+        <div class="s03one">    
+            <div id="slippry-slider">
+                <ul id="slippry-demo">
+                <li><a href="#"><img src="assets/img/slide1.png"></a></li>
+                <li><a href="#"><img src="assets/img/slide2.png"></a></li>
+                </ul>
+            </div>
+
+            <div class="s03two">
+                <h2 class="how">And how does it relate to design?</h2>
+                <p class="sustain">Sustainability in design is the philosophy of designing products or services to comply with the principles of social, economic, and ecological sustainability.</p>
+            </div>
+        </section>
+  
+    </section>  
+     
+     <section id="panel4"class="s04">
+         <div class="imagetext">
+            <h4> Through general guidelines and careful material usage, dietiker remains cautious. </h4>
+         </div>   
+     </section>   
+     
+     <section class="s05">
+        <div class="generalguidelines">
+            <h2 class="gg">general guidelines</h2>
+        </div>    
+        <div class="bordercontain">
+                <div class="one">
+                <div class="number">
+                    <h3>01</h3>
+                </div>
+                <div class="guidelinetext">
+                    <p class="gtext">If possible, we utilise packaging materials such as cardboard and air cushion foils.</p>
+                </div>
+                </div>
+
+                <div class="one">
+                <div class="number">
+                    <h3>02</h3>
+                </div>
+                 <div class="guidelinetext">
+                    <p class="gtext">We dispose of waste from treated wood in the refuse incinerator and untreated wood is utilised for the inhouse wood heating system. </p>
+                </div>  
+                </div>
+                    
+                  <div class="one">  
+                  <div class="number">
+                    <h3>03</h3>
+                </div>
+                   <div class="guidelinetext">
+                    <p class="gtext">Our suppliers are urged to actively support us with environmental management.</p>
+                </div>
+                  </div>   
+       
+        </div>    
+        
+     </section>
+     
+     <section class="s06">
+        <div class="materialimage">
+               <img src="images/materials.png" alt="tables and chairs">
+        </div>
+        
+        <div class="materialbackground">
+            <div class="paragraphs">
+                <p class="careful">Through careful use of solid wood and board material, laquers and stains, upholstery, coverings, metals, and plastics, dietiker aims to create ecological balance.</p>
+            </div>
+        </div>    
+     </section>
+     
+     <section class="s05">
+     
+     <div id="panel5" class="generalguidelines">
+            <h2 class="gg">how to get involved</h2>
+        </div>    
+        <div class="bordercontain">
+                <div class="one">
+                <div class="number">
+                    <h3>01</h3>
+                </div>
+                <div class="guidelinetext">
+                    <p class="gtext">Stay informed about sustainability by researching the issue or attending events provided by The Centre for Sustainable Design </p>
+                </div>
+                </div>
+
+                <div class="one">
+                <div class="number">
+                    <h3>02</h3>
+                </div>
+                 <div class="guidelinetext">
+                    <p class="gtext">Be a concious consumer and support companies who are practicing sustainablity in their practices.</p>
+                </div>  
+                </div>
+                    
+                  <div class="one">  
+                  <div class="number">
+                    <h3>03</h3>
+                </div>
+                   <div class="guidelinetext">
+                    <p class="gtext">Practice sustainability in your own life by recycling and being environmentally concious.</p>
+                </div>
+                  </div>   
+       
+        </div>
+    
+        
+     </section>
+     
+     <footer>
+        <a href="attributes.html"><div class="attributes">
+            <p> image attributes</p>
+        </div> </a>
+     </footer>  
+    
+
+    </div>    
+</body>
+
+</html>

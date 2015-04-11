@@ -1,0 +1,24 @@
+
+@font-face{
+	font-family:"index";
+	src: url("../fonts/Index-Bold.otf");
+}
+
+@font-face{
+	font-family:"Basetica";
+	src: url("../fonts/Basetica-Med.otf");
+}
+
+@font-face{
+	font-family:"Avenir";
+	src: url("../fonts/AvenirLTStd-Book.otf");
+}
+
+@font-face{
+	font-family:"clarendon";
+	src: url("../fonts/ClarendonLTStd.otf");
+}
+
+
+
+

@@ -1,0 +1,298 @@
+ 
+ 
+ /*colors
+        dark grey #353535
+        red #c22926
+        
+        */
+        
+        /*baseline styles*/
+        body, html {
+            font-size: 16px;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        img{
+            display:block;
+            max-width: 100%;
+            width: 100%;
+        }
+        
+        section, article, header, footer, nav, video{
+            display:block;
+        }
+        
+    html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+        }
+
+        .sy-slides-wrap {
+        width: 50%;
+        height: auto;
+        }
+
+
+    .sy-pager {
+    display: none;
+    }
+        
+        
+        /*sections*/
+        
+        section{
+            width:100%;
+        }
+        
+        .s01{
+            background-image: url('../images/hero.jpg');
+            background-size:cover;
+            background-repeat:no-repeat;
+            padding-top:11%;
+            border: 1px solid transparent;
+            overflow:auto;
+           
+            
+
+        }
+        
+        .s02{
+            background-color:#353535;
+            height:auto;
+            margin-top:5px;
+            padding-top:15%;
+            padding-bottom:15%;
+        }
+        
+        .s03{
+            height:auto;
+            margin-top:5px;
+           
+        }
+        
+        .s04{
+            background-image: url('../images/worker.jpg');
+            background-size:cover;
+            overflow:auto;
+            background-repeat:no-repeat;
+             border: 1px solid transparent;
+             padding-top:15%;
+             padding-left:5%;
+            
+        }
+        
+        .s05{
+            height:auto;
+            margin-top:5px;
+            padding-top:5%;
+        }
+        
+        .s06{
+            height:auto;
+            margin-top:5px;
+            padding-top:5%;
+        }
+        
+        
+        /*div positioning */
+        
+            /* section 1 */
+        
+        .herobox{
+            width:75%;
+            background-color:#353535;
+            float:right;
+            background-color: rgba(53,53,53,0.7);
+            border: 1px solid transparent;
+            margin-bottom: 180px;
+        }
+
+        .herotext{
+            position:absolute;
+            margin-top:5%;
+            margin-left:10%;
+        }
+        
+        .dietiker{
+            margin-top:33%;
+            margin-left:17%;
+            margin-bottom:50px;
+        }
+            /*section 2 */
+            
+        .whatis{
+            width:90%;
+            height:auto;
+            margin-left:10%;
+        }
+        
+        .headline{
+            margin-bottom:5%;
+        }
+        
+        .description{
+            width:280px;
+            display:inline-block;
+            margin-left:5%;
+        }
+        
+              /*section 4 */
+        
+        .imagetext{
+            width:80%;
+            display:inline-block;
+            
+            
+            
+        }
+             /*section 5 */
+             
+         .bordercontain{
+            width: 90%;
+            height:auto;
+            border-top:thick solid;
+            border-bottom:thick solid;
+            border-bottom-color:#c22926;
+             border-top-color:#c22926;
+             padding-left:20px;
+         }
+         
+         .generalguidelines{
+           margin-left:2%;
+           margin-bottom:1%;
+           vertical-align: top;         
+           
+         }
+         
+         .guidelinetext{
+            width:250px;
+            display: inline-block;
+            margin-top:150px;
+         }
+         
+         .number {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: -80px;
+            margin-left:10px;
+         }
+         
+          /*section 6 */
+          
+          .img{
+            width:100%;
+            max-width:100%;
+          }
+          
+          .materialimage{
+            height:auto;
+            margin-bottom:-400px;
+          }
+          
+          .materialbackground{
+            background-color:#353535;
+            height:500px;
+            
+          }
+             
+        /*typography*/
+        
+        body{
+            font-size:16px;
+        }
+        
+        h1{
+            font-size: 6.5vw;
+            color:white;
+            font-family:index;
+        }
+    
+        h2{
+            font-size:3.13em;
+            color:white;
+            font-family:basetica;
+        }
+        
+        .gg{
+            color:#c22926;
+            font-size:2.4em;
+        }
+        
+        .providedby{
+            font-size:1.6em;
+            color:#c22926;
+        }
+        
+        h3{
+            font-size: 10em;
+            color:gray;
+            opacity:.20;
+            font-family:basetica;
+        }
+        
+        h4{
+            font-size:6vw;
+            color:white;
+             font-family:index;
+        }
+        
+        p{
+            font-size:1em;
+            color:white;
+            font-family:avenir;
+            line-height:19px;
+        }
+        
+        .gtext{
+            font-size:1.5em;
+            font-family:avenir;
+            color:black;
+            line-height:25px;
+        }
+        
+        /*media queries*/
+        
+        
+         @media screen and (max-width:768px){
+           h3{
+            font-size: 9.5em;
+        }
+        
+        .gtext{
+            font-size:1em;
+        }
+        
+         @media screen and (max-width:696px){
+            .pg2{
+                margin-top:10px;
+            }
+         }
+         
+         @media screen and (max-width:380px){
+            h2{
+                font-size:2em;
+            }
+            
+            .description{
+                width:80%;
+            }
+         }
+         
+         @media screen and (max-width:570px){
+            .gg{
+                font-size:1.5em;
+            }
+         }
+         
+          @media screen and (max-width:470px){
+            .guidelinetext{
+                width:60%;
+            }   
+          }   
+
+
+
